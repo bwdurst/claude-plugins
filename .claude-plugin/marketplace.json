@@ -1,0 +1,28 @@
+{
+  "name": "bwdurst",
+  "owner": { "name": "Bobby Durst", "url": "https://github.com/bwdurst" },
+  "description": "Claude Code skills by Bobby Durst: a coding persona team, a rule auditor, and a cross-session question sweep.",
+  "plugins": [
+    {
+      "name": "agent-team",
+      "source": { "source": "github", "repo": "bwdurst/agent-team" },
+      "description": "Six coding personas (lead, implementation, frontend, review, testing, architecture) that share one set of instructions across Claude and Codex.",
+      "category": "productivity",
+      "tags": ["personas", "code-review", "delegation"]
+    },
+    {
+      "name": "rule-curator",
+      "source": { "source": "github", "repo": "bwdurst/rule-curator" },
+      "description": "Audit and prune CLAUDE.md, memory, AGENTS.md and ADR rules in one pass, with a browser UI to keep, drop or rewrite each rule.",
+      "category": "productivity",
+      "tags": ["claude-md", "memory", "audit"]
+    },
+    {
+      "name": "session-sweep",
+      "source": { "source": "github", "repo": "bwdurst/session-sweep" },
+      "description": "Find every Claude Code session waiting on you across projects, collect your answers, and send them back.",
+      "category": "productivity",
+      "tags": ["sessions", "multitasking"]
+    }
+  ]
+}
