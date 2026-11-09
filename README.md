@@ -11,7 +11,7 @@ A Claude Code plugin marketplace for the skills I build and use every day.
 |---|---|
 | [agent-team](https://github.com/bwdurst/agent-team) | Six coding personas (Kira the lead, plus implementation, frontend, review, testing and architecture specialists) that share one set of instructions across Claude and Codex. Talk to Kira and she routes the work. |
 | [rule-curator](https://github.com/bwdurst/rule-curator) | Audits every rule your agent runs under (CLAUDE.md files, memory, AGENTS.md, ADRs) against the whole set, flags the stale, duplicated and conflicting ones, and gives you a browser UI to keep, drop or rewrite each. |
-| [session-sweep](https://github.com/bwdurst/session-sweep) | Finds every session waiting on you across all projects (questions, decisions, stuck permission prompts), collects your answers in one pass, and sends each back to the session that asked. |
+| [waiting-on-me](https://github.com/bwdurst/waiting-on-me) | Finds every session waiting on you across all projects (questions, decisions, stuck permission prompts), collects your answers in one pass, and sends each back to the session that asked. |
 
 Each plugin also installs with the [skills](https://skills.sh) installer for Claude Code, Codex and other agents:
 

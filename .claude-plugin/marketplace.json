@@ -35,10 +35,10 @@
       ]
     },
     {
-      "name": "session-sweep",
+      "name": "waiting-on-me",
       "source": {
         "source": "url",
-        "url": "https://github.com/bwdurst/session-sweep.git"
+        "url": "https://github.com/bwdurst/waiting-on-me.git"
       },
       "description": "Find every Claude Code session waiting on you across projects, collect your answers, and send them back.",
       "category": "productivity",
